@@ -16,14 +16,14 @@ A React-based frontend application for visualizing foreign exchange rate history
 
 - Node.js 16+ 
 - npm or yarn
-- Access to the Forex History API backend
+- Access to the Forex Scraper API backend
 
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd forex-history-frontend
+cd forex-scraper-frontend
 ```
 
 2. Install dependencies:
