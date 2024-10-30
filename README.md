@@ -2,6 +2,9 @@
 
 A React-based frontend application for visualizing foreign exchange rate history data. Built with Material-UI (MUI) and featuring interactive charts for tracking currency exchange rates.
 
+## Live Deployment Link
+[Live Forex Scraper Frontend](https://forex-scraper-frontend.onrender.com/)
+
 ## Features
 
 - Interactive line charts for forex rate visualization
@@ -22,7 +25,7 @@ A React-based frontend application for visualizing foreign exchange rate history
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/D-z-V/forex-scraper-frontend.git
 cd forex-scraper-frontend
 ```
 
