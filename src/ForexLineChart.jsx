@@ -42,7 +42,6 @@ const ForexLineChart = () => {
   
     const fetchCurrencies = async () => {
       setLoading(true);
-      setError(false);
       try {
           const response = await fetch(`${API_URL}/api/supported-currencies`);
           if (response.ok) {
