@@ -1,0 +1,40 @@
+/* General styles for the ForexLineChart component */
+.forex-chart-container {
+  padding: 24px;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Default font for the app */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+
+}
+
+/* Styling for form controls and buttons */
+.form-control {
+  min-width: 120px; /* Minimum width for form controls */
+}
+
+.select-input {
+  width: 100%;
+}
+
+.fetch-button {
+  background-color: #1976d2; /* Primary color */
+  color: white;
+}
+
+.fetch-button:hover {
+  background-color: #115293; /* Darker shade for hover effect */
+}
+
+/* Chart styles */
+.chart {
+  margin-top: 32px; /* Space above the chart */
+  border: 1px solid #e0e0e0; /* Light border around the chart */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow for a clean look */
+}
+
+
+
