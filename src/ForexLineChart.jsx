@@ -301,7 +301,7 @@ const ForexLineChart = () => {
             showMark: true,
           }]}
           title="Open and Close Exchange Rates"
-          legend={{ position: 'top' }}  // Positioning the legend at the top
+          legend={{ position: 'top' }}  
           sx={{
             '.MuiLineElement-root': {
               strokeWidth: 2,
