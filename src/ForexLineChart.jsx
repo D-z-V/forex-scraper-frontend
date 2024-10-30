@@ -155,7 +155,7 @@ const ForexLineChart = () => {
               }}
             >
               {getAvailableFromCurrencies().map(([code, name]) => (
-                <MenuItem key={code} value={code}>{name}</MenuItem>
+                <MenuItem key={code} value={code}>{`${name} [${code}]`}</MenuItem>
               ))}
             </Select>
           </StyledFormControl>
@@ -178,7 +178,7 @@ const ForexLineChart = () => {
               }}
             >
               {getAvailableToCurrencies().map(([code, name]) => (
-                <MenuItem key={code} value={code}>{name}</MenuItem>
+                <MenuItem key={code} value={code}>{`${name} [${code}]`}</MenuItem>
               ))}
             </Select>
           </StyledFormControl>
